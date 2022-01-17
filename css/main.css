@@ -1042,6 +1042,15 @@ textarea.form-control, textarea.form-control:focus {
     vertical-align: top
 }
 
+.timeline-second-style .project-left-part {
+    width: 22%;
+    display: table-cell;
+    padding-right: 25px;
+    min-height: 100%;
+    text-align: right;
+    vertical-align: top
+}
+
 .timeline-second-style .right-part {
     width: 70%;
     display: table-cell;
@@ -1063,6 +1072,15 @@ textarea.form-control, textarea.form-control:focus {
     background-color: #444
 }
 
+.timeline-second-style .project-divider {
+    position: absolute;
+    top: 0;
+    left: 26%;
+    bottom: 0;
+    width: 1px;
+    background-color: #444
+}
+
 .timeline-second-style .divider:before {
     content: '';
     display: block;
@@ -1079,6 +1097,36 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .timeline-second-style .divider:after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 9px;
+    height: 9px;
+    margin-left: -4px;
+    background-color: #222;
+    border-radius: 5px;
+    border: 2px solid #04b4e0;
+    z-index: 1
+}
+
+
+.timeline-second-style .project-divider:before {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    margin-left: -8px;
+    border-radius: 10px;
+    background-color: #04b4e0;
+    opacity: .25;
+    z-index: 0
+}
+
+.timeline-second-style .project-divider:after {
     content: '';
     display: block;
     position: absolute;
