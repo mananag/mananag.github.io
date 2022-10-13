@@ -1060,7 +1060,11 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .timeline-second-style .right-part p, .timeline-second-style .right-part p > * {
-    font-size: .92em
+    font-size: .8em
+}
+
+li {
+        font-size: .8em
 }
 
 .timeline-second-style .divider {
