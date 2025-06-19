@@ -1059,7 +1059,7 @@ textarea.form-control, textarea.form-control:focus {
     vertical-align: top
 }
 
-.timeline-second-style .right-part p, .timeline-second-style .right-part p > * {
+.timeline-second-style .right-part p {
     font-size: .8em
 }
 
